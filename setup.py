@@ -30,7 +30,7 @@ assert version
 
 
 setuptools.setup(
-    name="ai-models-graphcast",
+    name="ai-models-graphcast-operational",
     version=version,
     description="Run graphcast ai weather models",
     long_description=read("README.md"),
@@ -38,7 +38,7 @@ setuptools.setup(
     author="European Centre for Medium-Range Weather Forecasts (ECMWF)",
     author_email="software.support@ecmwf.int",
     license="Apache License Version 2.0",
-    url="https://github.com/ecmwf-lab/ai-models-graphcast",
+    url="https://github.com/yeechianlow/ai-models-graphcast-operational",
     packages=setuptools.find_packages(),
     include_package_data=True,
     # JAX requirements are in requirements.txt
