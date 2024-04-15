@@ -21,7 +21,7 @@ def read(fname):
 
 
 version = None
-for line in read("ai_models_graphcast/__init__.py").split("\n"):
+for line in read("ai_models_graphcast_operational/__init__.py").split("\n"):
     if line.startswith("__version__"):
         version = line.split("=")[-1].strip()[1:-1]
 
@@ -51,7 +51,7 @@ setuptools.setup(
     keywords="tool",
     entry_points={
         "ai_models.model": [
-            "graphcast_operational = ai_models_graphcast.model:model",
+            "graphcast_operational = ai_models_graphcast_operational.model:model",
         ]
     },
     classifiers=[
