@@ -1,6 +1,6 @@
-# ai-models-graphcast
+# ai-models-graphcast-operational
 
-`ai-models-graphcast` is an [ai-models](https://github.com/ecmwf-lab/ai-models) plugin to run Google Deepmind's [GraphCast](https://github.com/deepmind/graphcast).
+`ai-models-graphcast-operational` is an [ai-models](https://github.com/ecmwf-lab/ai-models) plugin to run the operational version of Google Deepmind's [GraphCast](https://github.com/deepmind/graphcast).
 
 GraphCast: Learning skillful medium-range global weather forecasting, arXiv preprint: 2212.12794, 2022. https://arxiv.org/abs/2212.12794
 
@@ -13,7 +13,7 @@ The model weights are made available for use under the terms of the Creative Com
 To install the package, run:
 
 ```bash
-pip install ai-models-graphcast
+pip install git+https://github.com/yeechianlow/ai-models-graphcast-operational
 ```
 
 This will install the package and most of its dependencies.
